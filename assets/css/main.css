@@ -1222,8 +1222,9 @@
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
-			border: solid 1px #ffffff;
+			border: solid 1px #000000;
 			border-radius: 100%;
+			background-color:white;
 		}
 
 			#header .logo .icon img{
