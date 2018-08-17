@@ -1222,8 +1222,9 @@
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
-			border: solid 1px #ffffff;
+			border: solid 1px #000000;
 			border-radius: 100%;
+			background-color:white;
 		}
 
 			#header .logo .icon img{
@@ -1613,35 +1614,31 @@ padding-left:0px;
 }
 }
 
-.Associates1{
-width:48%;
+.AssociatesLeft{
+width:47%;
 float:left;
-padding:1%;
-padding-top:15%;
 background-color:white;
-margin-right:1%;
+margin-bottom:20px;
 }
-.Associates2{
-width:48%;
+.AssociatesRight{
+width:47%;
 float:left;
-padding: 1%;
 padding-top:0;
 background-color:white;
-margin-left:1%;
+margin-left:6%;
+margin-bottom:20px;
 }
-@media screen and (max-width : 688px){
-.Associates1 {
-padding:0;
+@media screen and (max-width : 480px){
+.AssociatesLeft {
+margin-bottom:20px;
 width:100%;
-margin-right:0;
-margin-bottom:2%;
-}
+	}
 
-.Associates2 {
-padding:0;
+.AssociatesRight {
+margin-left:0;
 width:100%;
-margin:0;
-}
+margin-bottom:20px;
+	}
 }
 
 body{
