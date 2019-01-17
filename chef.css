@@ -2,19 +2,12 @@
 	height: auto;
 	margin-top: 20%;
 }
-.cd{
-	background-color: red;
-	border: 2px solid black;
-}
+
 
 .register-link{
 
 }
-.ab{
-	color: white;
-	background: black;
-	height: -webkit-fill-available;
-}
+
 .icons{
 	margin: 50px 0px 10px 10px;
 	float: right;
@@ -85,7 +78,7 @@
 
 @media only screen and (max-width: 1200px) {
   	.btnText{
-		font-size: 75%;
+		font-size: 70%;
 	}
 	
 }
